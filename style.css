@@ -6,15 +6,17 @@
 
 .outer{
     background-color:  hsl(233, 47%, 7%);
-    margin: 1%;
+    margin: auto;
     padding: 5%;
+    height: 500px;
 }
 
 .inner{
     display: flex;
     background-color: hsl(244, 38%, 16%);  
     color: white;
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 
 
@@ -34,12 +36,12 @@
 .left{
     width: 50%;
     color: white;
-    padding: 60px;
+    padding: 30px;
 
   } 
   .left h1{
     /* margin: 10px; */
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 700;
     margin-bottom: 20px;
   }
@@ -48,6 +50,7 @@
   }
   .left p{
     color: #57546F;
+    font-size: 12px;
     margin-bottom: 20px;
   }
 
@@ -60,4 +63,5 @@
   }
 span.template, span.companies, span.queries{
     color: #69677E;
+    font-size: 10px;
   }
